@@ -1,10 +1,10 @@
 import React from "react";
 import { Paper, TextField, FormControl, Select } from "@mui/material";
 
-const Main = () => {
+const Calculadora = () => {
     return (
         <div>
-            <Paper>
+            <Paper elevation={3} className="calculadora">
                 <h3>Converta valores</h3>
             <div>
                 <TextField variant="outlined" />
@@ -27,4 +27,4 @@ const Main = () => {
     )
 };
 
-export default Main;
+export default Calculadora;

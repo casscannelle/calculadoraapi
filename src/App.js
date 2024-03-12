@@ -1,11 +1,11 @@
 // App.js
 import React from 'react';
-
-import Main from './Components/Main/Main';
+import './App.css';	
+import Calculadora from './Components/Calculadora/Calculadora';
 
 const App = () => {
   return (
-    <Main />
+    <Calculadora />
   );
 };
 
