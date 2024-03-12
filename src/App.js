@@ -1,12 +1,13 @@
-// App.js
-import React from 'react';
-import './App.css';	
-import Calculadora from './Components/Calculadora/Calculadora';
+import React from "react";
+import MoedaProvider from "./Components/MoedaProvider/MoedaProvider";
+import Calculadora from "./Components/Calculadora/Calculadora";
 
-const App = () => {
+function App() {
   return (
-    <Calculadora />
+    <MoedaProvider>
+      <Calculadora />
+    </MoedaProvider>
   );
-};
+}
 
 export default App;

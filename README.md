@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+ERRO DA API
+{
+  "success":false,
+  "error":{
+    "code":105,
+    "type":"https_access_restricted",
+    "info":"Access Restricted - Your current Subscription Plan does not support HTTPS Encryption."
+  }
+}
