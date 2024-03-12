@@ -32,14 +32,14 @@ const Calculadora = () => {
             setValorAtual(valorConvertido.toFixed(2));
           })
           .catch(error => {
-            console.error("Error fetching conversion rate:", error);
+            console.error("Erro ao obter a taxa de conversão. Tente novamente:", error);
             alert("Erro ao obter a taxa de conversão. Tente novamente.");
           });
       } else {
-        alert("Valores inválidos. Verifique se os valores são diferentes.");
+        alert("Valores inválidos.");
       }
     } else {
-      alert("Valor inválido. Verifique se o valor digitado é um número.");
+      alert("Valor inválido.");
     }
   }
 
